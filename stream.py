@@ -105,6 +105,7 @@ load_dotenv()
 
 # Set up Streamlit title
 st.title("Agri Bot")
+st.subheader("Hey I'm your Chatbot for agriculture purposes, Tell me how can I help you....")
 
 # Configure Google Generative AI
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
